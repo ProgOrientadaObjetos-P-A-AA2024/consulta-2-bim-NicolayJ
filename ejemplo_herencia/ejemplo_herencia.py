@@ -100,7 +100,7 @@ def main():
     print(f"Identificación: {estudiante.obtener_identificacion_estudiante()}")
     print(f"Edad: {estudiante.obtener_edad_estudiante()}")
     
-    estudiante_distancia = EstudianteDistancia("Ana", "García", "987654321", 22, 5, 120.0)
+    estudiante_distancia = EstudianteDistancia("Joan", "Sebastian", "987654321", 22, 5, 120.0)
     
     estudiante_distancia.calcular_matricula_distancia()
     
@@ -113,7 +113,7 @@ def main():
     print(f"Costo por Asignatura: {estudiante_distancia.obtener_costo_asignatura()}")
     print(f"Matricula Distancia: {estudiante_distancia.obtener_matricula_distancia()}")
     
-    estudiante_presencial = EstudiantePresencial("Luis", "Martínez", "567890123", 21, 6, 150.0)
+    estudiante_presencial = EstudiantePresencial("Adrian", "Valverde", "567890123", 21, 6, 150.0)
     
     estudiante_presencial.calcular_matricula_presencial()
     
